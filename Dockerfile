@@ -1,11 +1,11 @@
-FROM lsiobase/alpine:3.8
+FROM lsiobase/alpine:3.9
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 LABEL maintainer="whtsky"
 
-ENV TZ=Asia/Shanghai PORT=1999 VER=3.6.7
+ENV TZ=Asia/Shanghai PORT=1999 VER=3.6.8
 ENV BAIDUPCS_GO_CONFIG_DIR=/config
 
 RUN \
